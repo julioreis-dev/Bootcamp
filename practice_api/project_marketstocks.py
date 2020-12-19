@@ -8,11 +8,11 @@ NEWS_ENDPOINT = 'http://newsapi.org/v2/everything'
 
 # API_KEY
 ALPHA_API_KEY = ''
-NEWS_API_KEY = 'dcfd0cc7060a4752af59d0e0d1ababc6'
+NEWS_API_KEY = ''
 ASSET = 'TSLA'
 
 # Twilio autentication
-account_sid = 'AC20331eaa7a6b923fe7208daf2d1848d0'
+account_sid = ''
 auth_token = '679a45d175b6148e327f5ca2bd98c624'
 
 # todo 2 - acessar os parametros
