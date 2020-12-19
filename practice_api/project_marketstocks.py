@@ -7,7 +7,7 @@ STOCK_ENDPOINT = 'https://www.alphavantage.co/query'
 NEWS_ENDPOINT = 'http://newsapi.org/v2/everything'
 
 # API_KEY
-ALPHA_API_KEY = 'SICYGTGEGYD93KDY'
+ALPHA_API_KEY = ''
 NEWS_API_KEY = 'dcfd0cc7060a4752af59d0e0d1ababc6'
 ASSET = 'TSLA'
 
