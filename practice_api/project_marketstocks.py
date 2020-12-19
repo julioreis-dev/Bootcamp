@@ -13,7 +13,7 @@ ASSET = 'TSLA'
 
 # Twilio autentication
 account_sid = ''
-auth_token = '679a45d175b6148e327f5ca2bd98c624'
+auth_token = ''
 
 # todo 2 - acessar os parametros
 stock_params = {
