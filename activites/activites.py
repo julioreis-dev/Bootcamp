@@ -1,9 +1,9 @@
 import requests
 from datetime import datetime
 
-pixela_endpoint = 'https://pixe.la/v1/users'
-TOKEN = 'oCc2OdZg2jjrMu'
-USERNAME = 'jrfirmino'
+pixela_endpoint = 'https://'
+TOKEN = 'xxxxx'
+USERNAME = 'jrfirminoxxxxxxx'
 
 user_params = {
     'token': TOKEN,
@@ -13,7 +13,7 @@ user_params = {
 }
 # response = requests.post(url=pixela_endpoint, json=user_params)
 # print(response.text)
-graph_endpoint = f'{pixela_endpoint}/{USERNAME}/graphs'
+graph_endpoint = f'{pixela_endpoint}/{USERNAME}/xxxxxx'
 
 graph_params = {
     'id': 'manu1',
