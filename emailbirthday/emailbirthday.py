@@ -11,7 +11,7 @@ now = dt.datetime.now()
 tuplebirth = (now.month, now.day)
 
 data = pd.read_csv('Solution+-+birthday-wisher-end/birthdays.csv')
-birthdays_dict = {(dados["month"], row["day"]): row for (index, row) in data.iterrows()}
+birthdays_dict = {(row["month"], row["day"]): row for (index, row) in data.iterrows()}
 
 if tuplebirth in birthdays_dict:
     birth_name = birthdays_dict[tuplebirth]
