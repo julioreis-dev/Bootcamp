@@ -10,7 +10,7 @@ end_point = 'https://api.openweathermap.org/data/2.5/onecall'
 weather = {
     'lat': -22.803850,
     'lon': -43.372631,
-    'appid': 'ad87b8a03735d2aa78d2d90359a80162',
+    'appid': 'My_appid',
     'exclude': 'current,minutely,daily',
 }
 
