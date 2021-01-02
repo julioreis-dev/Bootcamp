@@ -5,7 +5,7 @@ import pandas as pd
 
 
 my_email = 'jrfirmino01@gmail.com'
-my_password = 'Manuela01*'
+my_password = 'My_password'
 
 now = dt.datetime.now()
 tuplebirth = (now.month, now.day)
