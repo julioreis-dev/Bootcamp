@@ -2,8 +2,8 @@ import requests
 from twilio.rest import Client
 
 # Twilio autentication
-account_sid = 'AC20331eaa7a6b923fe7208daf2d1848d0'
-auth_token = '679a45d175b6148e327f5ca2bd98c624'
+account_sid = 'my_account_sid'
+auth_token = 'my_token'
 
 # Openweather endpoint
 end_point = 'https://api.openweathermap.org/data/2.5/onecall'
