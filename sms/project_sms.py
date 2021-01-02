@@ -28,8 +28,8 @@ if flag:
     client = Client(account_sid, auth_token)
     message = client.messages.create(body="Alerta: Cuidado!!!. Se você precisar sair de casa leve guarda chuva. As "
                                           "ultimas 12 horas tivemos registro de previsão de chuva para a sua região.",
-                                     from_='+19548073107',
-                                     to='+5521980379545')
+                                     from_='+(my_tel)',
+                                     to='+(my_tel')
     print(message.status)
     print('SMS, enviado com sucesso!!!')
 else:
