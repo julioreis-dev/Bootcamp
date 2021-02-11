@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+import requests
 # import lxml
 
 with open('curriculo.html') as file:
@@ -24,3 +25,8 @@ for tag in anchor_tags:
     # print(tag.getText())
     # print(tag.get('href'))
     pass
+
+left = soup.find_all(name='img', class_='icon escudo x45 pull-left')
+list_mandante = [team_host['title'] for team_host in right]
+list_visitor = [team_visitor['title'] for team_visitor in left]
+

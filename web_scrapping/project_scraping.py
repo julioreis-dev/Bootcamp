@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 
-response = requests.get('https://news.ycombinator.com/')
+url = 'https://news.ycombinator.com/'
+response = requests.get(url)
 yc_web_page = response.text
 soup = BeautifulSoup(yc_web_page, 'html.parser')
 articles = soup.find_all(name='a', class_='storylink')
